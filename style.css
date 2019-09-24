@@ -1,0 +1,56 @@
+/*:root{
+--primary:;
+--primary-variant:;
+--secondary:;
+--secondary-variant:;
+--background:;
+--error:;
+--primary-text:;
+--secondary-text:;
+--base-spacing:;
+--border-primary:;
+--border-secondary:;
+}
+body{
+  font-family:"",;
+}
+h1{
+  margin: calc(var(--base-spacing)*2);
+}
+header,
+section: nth-of-type(odd),
+footer{
+  background: var(--primary);
+  color: var(--primary-text);
+}
+nav,
+section:nth-of-type(even){
+  background: var(--secondary);
+  color: var(--secondary-text);
+}
+footer{
+  border-top: var(--border-primary);
+}
+figure h1{
+  margin-top:0;
+}*/
+
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* define a fixed width for the entire menu */
+.navigation {
+width: 300px;
+}
+</head>
+<body>
+ <h1>Example of Nav tag</h1>
+<nav>
+ 	<a href="#">Home</a> |
+ 	<a href="#">Courses</a> |
+ 	<a href="#">About-us</a> |
+ 	<a href="#">Contact-us</a> |
+ </nav>
+</body>
+</html>
