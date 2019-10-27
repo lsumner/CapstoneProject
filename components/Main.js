@@ -2,13 +2,13 @@ export default function () {
 `   <main>
 <div>
   <h2>Honey~Do's Home Improvements...</h2>
-  <p> is a local company that has been in business for 23 years with a AAA rating
+<p> is a local company that has been in business for 23 years with a AAA rating
     with the BBB. Proving custom services for our clients, including securing permits 
     and making sure that all work is up to code regulations. We work closely with city
     inspectors and can get those difficult jobs taken care of. 
-      <i>Anything from "roofs to floors...and so much more".</i>
-      <b>No job is to big or to small.</b> 
-  </p>
+    <i>Anything from "roofs to floors...and so much more".</i>
+    <b>No job is to big or to small.</b> 
+</p>
 </div>    
 
 <div>
