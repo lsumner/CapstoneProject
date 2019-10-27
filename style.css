@@ -11,6 +11,7 @@
 --border-primary:black;
 --border-secondary:silver;
 }
+
 .myButton {
 	box-shadow: 0px 0px 0px 1px rgb(70, 30, 30);
   border-radius:10px;
@@ -21,6 +22,7 @@
 	font-size:14px;
   text-decoration:none;	
 }
+
 nav{
   column-count:3;
   }
@@ -28,17 +30,15 @@ nav{
 .myButton:hover {
 	background-color:transparent;
 }
+
 header{
 background-color:#faf8f8;
-img
 text-align: center;
 border-style:double;
 border-top-width:2px;
 color:rgb(70, 30, 30);
 }
 /*  look up how to move buttons up and images over*/
-
-
 
 
 body{
@@ -66,14 +66,26 @@ p {
   footer{
   color:tan;
   background-color:rgb(70, 30, 30);
-  text-align: center;
+  /* text-align: center; */
+  margin: -9px;
+  padding: 21px;
 }
- 
- footer p{
- color:tan;
- text-align: center;
- position: relative;
- top: -70%;
+
+.rights {
+  padding: 21px;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center; */
+}
+
+.contact{
+  color:tan;
+  text-align: center;
+  /* position: relative; */
+  top: -70%;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
 }
 
 a, a:visited, a:active{
