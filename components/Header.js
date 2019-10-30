@@ -1,4 +1,5 @@
 export default function (state) {
-        return `${state.Header}`
+    console.log(state)
+        return `${state.header}`
     ;
     }

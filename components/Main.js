@@ -1,4 +1,4 @@
 export default function (state) {
-return `${state.Main}`
+return `${state.main}`
 ;
 }
