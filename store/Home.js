@@ -50,5 +50,4 @@ export default {
         </p>
 </div>
     </main>`
-;
 }
