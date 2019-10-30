@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/lsumner/CapstoneProject#readme",
   "dependencies": {
+    "navigo": "^7.1.2",
     "parcel": "^1.12.4"
   },
   "devDependencies": {},
