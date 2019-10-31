@@ -14,8 +14,9 @@ function capitalize (word) {
 function render (st = state.Home) {
     console.log(st)
     document.querySelector("#root").innerHTML = `
-    ${Header(st)}
+    
     ${Nav(st)}
+    ${Header(st)}
     ${Main(st)}
     ${Footer()}
 `;

@@ -3,20 +3,7 @@ export default {
     <!--if can't use video then insert img src for logo/then style--> 
     <img src="https://polisheddesignz.files.wordpress.com/2019/10/fadedfingers.jpg?resize=1200%2C700">
 </header>`,
-    nav: ` <nav>
-            <div class="controls">
-                <a href="/Remodels.html" class="myButton">Home</a>
-            </div>
-                  
-            <div class="controls">
-                <a href="/Floors.html" class="myButton">Floors/Decks</a>
-            </div>
-                    
-            <div class="controls">
-                <a href="/Misc.html" class="myButton">Miscellaneous</a>
-            </div>
-        </nav>
-        `,
+links: ['Home', 'Misc', 'Floors'],
     main: ` <main> 
     <figure>
         <img src="https://polisheddesignz.files.wordpress.com/2019/10/ceiling.jpg?resize=200%2C200">

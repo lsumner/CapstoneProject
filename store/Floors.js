@@ -1,23 +1,10 @@
+
 export default {
     header: `<header>
     <!--if can't use video then insert img src for logo/then style--> 
     <img src="https://polisheddesignz.files.wordpress.com/2019/10/fadedfingers.jpg?resize=1200%2C700">
 </header>`,
-    nav: `<nav>
-    <!--<img src="https://polisheddesignz.files.wordpress.com/2019/10/gold-floors1.png?resize=214%2C214">--> 
-        <div class="controls">
-            <a href="/Remodels.html" class="myButton">Remodels</a>
-        </div>
-        
-        <div class="controls">
-            <a href="/Floors.html" class="myButton">Home</a>
-        </div>
-                
-    <!--<img src="https://polisheddesignz.files.wordpress.com/2019/10/cut-logo.png?resize=214%2C214">--> 
-        <div class="controls">
-            <a href="/Misc.html" class="myButton">Miscellaneous</a>
-        </div>
-    </nav>`,
+    links: ['Home', 'Misc', 'Remodels'],
     main: `<main>
 <figure>
         <img src="https://polisheddesignz.files.wordpress.com/2019/10/roomrepair.jpg?resize=200%2C200">
@@ -38,18 +25,17 @@ export default {
         <!-- When FLOORS PAGE is made you will then add forms back so user can enter their info -->
         <form action="#">
                 <label for="num1">Select Floor Type</label>
-                <select>type="number" id="num1">
-                        <select>
-                                <option value="./Vinyl">Vinyl</option>
-                                <option value="./Tile">Tile</option>
-                                <option value="./Wood">Wood</option>
-                              </select>
+                    <select>
+                        <option value="3">Vinyl</option>
+                        <option value="6">Tile</option>
+                        <option value="7">Wood</option>
+                    </select>
               
                 
                  <label for="num2">Enter Square footage</label>
                 <input type="number" id="num2">
 
-             <input type="submit"value = "Calculate!">
+             <input type="submit" value="Calculate!">
              <p>Click on the type of flooring you're looking for and get an estimated cost!</p>
              </form>     
        <!-- create an option inside select-->
@@ -69,6 +55,6 @@ export default {
         <input type="submit" value="Calculate!">
                   
         <p>Above prices are for estimated labor costs.</p>
-        </ul>-->
+        </!-->
 </main> `
 };
