@@ -1,7 +1,7 @@
 import {Header, Nav, Main, Footer} from "./components";
 import Navigo from "navigo";
 import * as state from "./store";
-console.log(state.Home)
+console.log(state.Home);
 
 const router = new Navigo(location.origin);
 
@@ -12,7 +12,7 @@ function capitalize (word) {
 }
 
 function render (st = state.Home) {
-    console.log(st)
+    // console.log(st)
     document.querySelector("#root").innerHTML = `
     
     ${Nav(st)}
@@ -20,7 +20,25 @@ function render (st = state.Home) {
     ${Main(st)}
     ${Footer()}
 `;
-router.updatePageLinks();  
+router.updatePageLinks();
+  const currentPage = router.lastRouteResolved();
+
+  // run code that only happens on one page
+  if (currentPage.url === '/Floors') {
+    // console.log("This should only show up on the Floors page")
+ 
+    const squareFootage = document.querySelector("#num2");
+    const floorType = document.querySelector("select");
+    console.log(squareFootage, floorType);
+
+    function calculateFloorCost () {
+      return floorType.value * squareFootage.value `{#num3}`
+    }
+  const submitButton = document.querySelector('input[type="submit"]')
+
+   
+  }
+  // console.log(router.lastRouteResolved());
 }
 
 router

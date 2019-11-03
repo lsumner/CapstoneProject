@@ -32,8 +32,11 @@ export default {
                     </select>
               
                 
-                 <label for="num2">Enter Square footage</label>
-                <input type="number" id="num2">
+                    <label for="num2"></label>
+                    <input type="number" id="num2" placeholder="Enter Square Footage">
+
+                    <label for="num3"></label>
+                    <input type="number" id="num3">
 
              <input type="submit" value="Calculate!">
              <p>Click on the type of flooring you're looking for and get an estimated cost!</p>
@@ -45,7 +48,8 @@ export default {
         <li><a href="./Vinyl">Vinyl</a></li>
         <p>$3.00 per Sq.ft</p>
         <input type="submit" value="Calculate!">
-          
+        <input type="submit" value="Enter sq ft.
+        "> 
         <li><a href="./Tile/">Tile</a></li>
         <p>$6.00 per Sq.ft</p>
         <input type="submit" value="Calculate!">
